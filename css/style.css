@@ -1,0 +1,149 @@
+/*          base        */
+
+:root{
+    --iconcolor:#04B5B5;
+    --manucolor:#05FCFC;
+    --font-family: 'Calibri';
+    --main:#FFFFFF;
+    --aboutmain:#F1654C;
+    --formcolor:#ECF0F1;
+    --footercolor:#2D3E50;
+}
+
+body{
+    font-family:var(--font-family);
+    background-color: var(--main);
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+
+/*          /base        */
+
+
+/*          header          */
+
+header{}
+header .container{}
+header .container .logo{
+    float: left;
+    width: 50%;
+}
+header .container .logo h1{position: relative;}
+header .container .logo h1 a{
+
+    color: black;
+}
+header .container .logo h1 a img{
+    width: 55px;
+    margin: 40px;
+
+}
+header .container .logo h1 a strong{
+    position: absolute;
+    width: 500px;
+
+    left:105px;
+    top: 70px;
+}
+header .container .logo h1 a strong.branded{
+    position: absolute;
+    left: 105px;
+    top: 45px;
+    font-weight: 800;
+    font-size: 20px;
+
+}
+
+header .container .navigation{
+    float: right;
+    width: 50%;
+}
+header .container .navigation .manu{
+    margin: 55px 0;
+    text-align: right;
+}
+header .container .navigation .manu li{
+    display: inline-block;
+    position: relative;
+    transition: all ease-in-out 0.4s;
+
+}
+header .container .navigation .manu li a{
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+    margin:0 5px;
+    transition: all ease-in-out 0.4s;
+    border-radius:2px;
+}
+header .container .navigation .manu li a:hover{
+    background-color: var(--iconcolor);
+    color: white;
+}
+header .container .navigation .manu li:hover ul{
+    display: block;
+
+}
+header .container .navigation .manu li ul{
+    display:none;
+    position: absolute;
+    top: 35px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+
+}
+
+header .container .navigation .manu li ul li{
+    width: 100%;
+    text-align: left;
+
+}
+header .container .navigation .manu li ul li a{
+    color: black;
+    display: block;
+    padding: 20px;
+    background-color:var(--manucolor);
+}
+/*          /header             */
+
+main{
+
+}
+
+
+
+/*          /main       */
+
+
+/*          footer      */
+footer{
+
+}
+
+
+/*          /footer     */
+
+
+
+
+
+
+
+
+
+
+
+
