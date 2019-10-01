@@ -3,7 +3,7 @@
 :root{
     --iconcolor:#04B5B5;
     --manucolor:#05FCFC;
-    --font-family: 'Calibri';
+    --font-family: 'Yu Gothic Medium';
     --main:#FFFFFF;
     --aboutmain:#F1654C;
     --formcolor:#ECF0F1;
@@ -11,13 +11,14 @@
 }
 
 body{
-    font-family:var(--font-family);
+    font-family: var(--font-family);
     background-color: var(--main);
     overflow-x: hidden;
 }
 
 a{
     text-decoration: none;
+
 }
 
 .clearfix{
@@ -36,7 +37,7 @@ a{
 
 @media only screen and (min-width: 770px){
 
-
+    
 
     /*          header          */
 
@@ -199,9 +200,35 @@ a{
 
     main{}
     main .container{}
-    main .container .one{}
+    main .container .one{
+        text-align: center;
+    }
     main .container .one .title-filter{}
-    main .container .one .{}
+    main .container .one .title-filter .title{
+        margin: 50px;
+    }
+    main .container .one .title-filter .title h3{
+        font-weight: 900;
+        font-size: 30px;
+        font-family: "Yu Gothic Medium";
+    }
+    main .container .one .title-filter .title p{
+        font-size: 18px;
+        margin: 20px;
+    }
+    main .container .one .title-filter .filter{}
+    main .container .one .title-filter .filter ul{}
+    main .container .one .title-filter .filter ul li{
+        display: inline;
+    }
+    main .container .one .title-filter .filter ul li a{
+        display: inline-block;
+        padding: 10px 13px;
+        background-color: var(--iconcolor);
+        color: white;
+        margin:0 10px;
+        border-radius: 2px;
+    }
 /*           end of the section one            */
 
 
