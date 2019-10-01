@@ -33,117 +33,347 @@ a{
 /*          /base        */
 
 
-/*          header          */
 
-header{}
-header .container{}
-header .container .logo{
-    float: left;
-    width: 50%;
+@media only screen and (min-width: 770px){
+
+
+
+    /*          header          */
+
+
+
+    header{}
+    header .container .navbar{}
+    header .container .navbar .logo{
+        float: left;
+        width: 50%;
+    }
+    header .container .navbar .logo h1{}
+    header .container .navbar .logo h1 a{
+
+    }
+    header .container .navbar .logo h1 a img{
+        margin: 20px;
+        width: 65px;
+    }
+
+    header .container .navbar .logo h1 a  strong{
+        color: black;
+    }
+    header .container .navbar .logo h1 a  strong.bold{
+        font-weight:900;
+        position: relative;
+        bottom: 55px;
+        right: 15px;
+        font-size: 20px;
+
+    }
+    header .container .navbar .logo h1 a strong.norm{
+        position: relative;
+        bottom: 35px;
+        right: 117px;
+        font-size: 17px;
+
+    }
+    header .container .navbar .nav{
+        float: right;
+        width: 50%;
+    }
+    header .container .navbar .nav ul{
+        text-align: right;
+        margin: 30px 40px 30px 0;
+    }
+    header .container .navbar .nav ul li{
+        display: inline-block;
+        position: relative;
+
+    }
+    header .container .navbar .nav ul li a{
+        display: block;
+        padding: 15px;
+        color: black;
+        border-radius: 3px;
+        margin: 0 7px;
+        transition: all ease-in-out 0.5s;
+    }
+    header .container .navbar .nav ul li a:hover{
+        background-color: var(--iconcolor);
+        color: white;
+    }
+    header .container .navbar .nav ul li .dropdown{
+        display: none;
+        position: absolute;
+        top: 15px;
+        left: 0;
+        margin-top: 32px;
+        z-index: 1;
+        /*background-color: white;*/
+    }
+    header .container .navbar .nav ul li:hover .dropdown{
+          display: block;
+    }
+    header .container .navbar .nav ul li .dropdown li{  }
+
+    header .container .navbar .nav ul li .dropdown li a{
+        background-color: white;
+        border-radius: 0;
+        padding: 15px 50px;
+    }
+    header .container .navbar .nav ul li .dropdown li a:hover{
+        background-color: var(--iconcolor);
+        color: white;
+        border-radius: 3px;
+    }
+
+    /*                  start of the jumbotron          */
+    header .container .jumbotron{
+        position: relative;
+        float: left;
+        background-image: url("../images/header.jpg");
+        width: 100%;
+        height: 595px;
+        background-size: cover;
+    }
+    header .container .jumbotron .caption{
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        margin: auto;
+
+
+    }
+    header .container .jumbotron .caption h2{
+        text-align: center;
+        color: white;
+        font-weight:900;
+        font-size: 50px;
+        margin: 60px;
+    }
+    header .container .jumbotron .caption p{
+        text-align: center;
+        color: #E1DED9;
+        font-weight:100;
+        font-size: 20px;
+        margin: 60px;
+        line-height: 1.4;
+
+    }
+    header .container .jumbotron .caption button{
+        border: none;
+        padding: 12px 25px;
+        background-color: var(--iconcolor);
+        color: white;
+        margin: 20px;
+        cursor: pointer;
+        border-radius: 3px;
+
+    }
+    header .container .jumbotron .caption .icon-scroll-down{ }
+    header .container .jumbotron .caption .icon-scroll-down button{
+        background-color: white;
+        color: black;
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+        border-radius:30px;
+        font-size: 40px;
+
+    }
+    header .container .jumbotron .caption .icon-scroll-down button i{}
+
+
+    /*                   end of the jumbotron       */
+
+
+    /*          end of the header       */
+
+
+
+
+
+
+
+
+/*           start of the  main            */
+/*           start of the section one            */
+
+    main{}
+    main .container{}
+    main .container .one{}
+    main .container .one .title-filter{}
+    main .container .one .{}
+/*           end of the section one            */
+
+
+
+
+/*          end of the main             */
 }
-header .container .logo h1{position: relative;}
-header .container .logo h1 a{
 
-    color: black;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                  screen for the under the 770px          */
+
+
+@media only screen and (max-width: 770px){
+
+    .clearfix{
+        clear: both;
+        float: none;
+    }
+    .container{
+        width:700px ;
+        margin: auto;
+    }
+
+    header{
+
+        position: fixed;
+
+    }
+    header .container{
+
+    }
+    header .container .navbar{
+        width:15%;
+        float: left;
+        margin: auto;
+        position: relative;
+        background-color: #04eeee;
+        height: 100%;
+    }
+    header .container .navbar .logo{
+        display: block;
+        float: none;
+    }
+    header .container .navbar .logo h1{
+        display: block;
+
+    }
+    header .container .navbar .logo h1 a{}
+    header .container .navbar .logo h1 a img{
+        width: 60px;
+        margin: 10px;
+        margin-bottom: 100px;
+    }
+    header .container .navbar .logo h1 a strong{
+        position: absolute;
+        top: 90px;
+        bottom: 10px;
+        left: 10px;
+        color: black;
+        text-align: center;
+        width: 10px;
+    }
+    header .container .navbar .logo h1 a strong.bold{
+        font-weight: 900;
+        position: absolute;
+        top: 70px;
+    }
+    header .container .navbar .nav{
+        display: block;
+        float: none;
+        width: 100px;
+    }
+    header .container .navbar .nav ul{
+
+    }
+    header .container .navbar .nav ul li{
+        position: relative;
+    }
+    header .container .navbar .nav ul li a{
+        display: block;
+        color: black;
+        padding: 7px;
+        transition: all ease-in-out 0.4s;
+    }
+    header .container .navbar .nav ul li a:hover{
+        color: white;
+        background-color: var(--iconcolor);
+    }
+    header .container .navbar .nav ul li:hover .dropdown{
+        display: block;
+    }
+    header .container .navbar .nav ul li .dropdown{
+        display: none;
+        position: absolute;
+        left: 100px;
+        top: 0;
+        background-color: white;
+    }
+    header .container .navbar .nav ul li .dropdown li{
+
+
+    }
+    header .container .navbar .nav ul li .dropdown li a{}
+    header .container .navbar .nav ul li .dropdown li a{}
+    /*              end of the navbar   */
+
+
+    /*                  start of the jumbotron          */
+
+
+    header .container .jumbotron{
+        float: right;
+        width: 85%;
+        background-image: url("../images/header.jpg");
+        background-size: cover;
+        height: 290px;
+
+    }
+    header .container .jumbotron .caption{
+        width: 65%;
+        height: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    header .container .jumbotron .caption h2{
+        color: white;
+        font-size:20px ;
+        font-weight: 900;
+        margin: 20px;
+    }
+    header .container .jumbotron .caption p{
+        color: #E1DED9;
+        font-size:15px ;
+        font-weight: 100;
+        margin: 20px;
+
+    }
+    header .container .jumbotron .caption button{
+        border: none;
+        background-color: var(--iconcolor);
+        padding: 8px 10px;
+        cursor: pointer;
+    }
+    header .container .jumbotron .caption .icon-scroll-down{}
+    header .container .jumbotron .caption .icon-scroll-down button{
+        width:30px;
+        height:30px ;
+        border-radius:20px ;
+        color: black;
+        background-color: white;
+        font-size: 15px;
+       margin-top: 10px;
+        cursor: pointer;
+    }
+    header .container .jumbotron .caption .icon-scroll-down button i{}
+    /*                  end of the jumbotron          */
+
 }
-header .container .logo h1 a img{
-    width: 55px;
-    margin: 40px;
-
-}
-header .container .logo h1 a strong{
-    position: absolute;
-    width: 500px;
-
-    left:105px;
-    top: 70px;
-}
-header .container .logo h1 a strong.branded{
-    position: absolute;
-    left: 105px;
-    top: 45px;
-    font-weight: 800;
-    font-size: 20px;
-
-}
-
-header .container .navigation{
-    float: right;
-    width: 50%;
-}
-header .container .navigation .manu{
-    margin: 55px 0;
-    text-align: right;
-}
-header .container .navigation .manu li{
-    display: inline-block;
-    position: relative;
-    transition: all ease-in-out 0.4s;
-
-}
-header .container .navigation .manu li a{
-    font-size: 20px;
-    color: black;
-    padding: 15px;
-    margin:0 5px;
-    transition: all ease-in-out 0.4s;
-    border-radius:2px;
-}
-header .container .navigation .manu li a:hover{
-    background-color: var(--iconcolor);
-    color: white;
-}
-header .container .navigation .manu li:hover ul{
-    display: block;
-
-}
-header .container .navigation .manu li ul{
-    display:none;
-    position: absolute;
-    top: 35px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
-
-}
-
-header .container .navigation .manu li ul li{
-    width: 100%;
-    text-align: left;
-
-}
-header .container .navigation .manu li ul li a{
-    color: black;
-    display: block;
-    padding: 20px;
-    background-color:var(--manucolor);
-}
-/*          /header             */
-
-main{
-
-}
-
-
-
-/*          /main       */
-
-
-/*          footer      */
-footer{
-
-}
-
-
-/*          /footer     */
-
-
-
-
-
-
-
-
-
-
-
-
