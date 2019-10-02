@@ -1,95 +1,102 @@
 /*          base        */
 
-:root{
-    --iconcolor:#04B5B5;
-    --manucolor:#05FCFC;
+:root {
+    --iconcolor: #04B5B5;
+    --manucolor: #05FCFC;
     --font-family: 'Yu Gothic Medium';
-    --main:#FFFFFF;
-    --aboutmain:#F1654C;
-    --formcolor:#ECF0F1;
-    --footercolor:#2D3E50;
+    --main: #FFFFFF;
+    --aboutmain: #F1654C;
+    --formcolor: #ECF0F1;
+    --footercolor: #2D3E50;
 }
 
-body{
+body {
     font-family: var(--font-family);
     background-color: var(--main);
     overflow-x: hidden;
 }
 
-a{
+a {
     text-decoration: none;
 
 }
 
-.clearfix{
+.clearfix {
     clear: both;
     float: none;
 }
-.container{
+
+.container {
     width: 1200px;
     margin: auto;
 }
 
-
 /*          /base        */
 
-
-
-@media only screen and (min-width: 770px){
-
-    
+@media only screen and (min-width: 770px) {
 
     /*          header          */
+    header {
+    }
 
+    header .container .navbar {
+    }
 
-
-    header{}
-    header .container .navbar{}
-    header .container .navbar .logo{
+    header .container .navbar .logo {
         float: left;
         width: 50%;
     }
-    header .container .navbar .logo h1{}
-    header .container .navbar .logo h1 a{
+
+    header .container .navbar .logo h1 {
+    }
+
+    header .container .navbar .logo h1 a {
 
     }
-    header .container .navbar .logo h1 a img{
+
+    header .container .navbar .logo h1 a img {
         margin: 20px;
         width: 65px;
     }
 
-    header .container .navbar .logo h1 a  strong{
+    header .container .navbar .logo h1 a strong {
         color: black;
     }
-    header .container .navbar .logo h1 a  strong.bold{
-        font-weight:900;
+
+    header .container .navbar .logo h1 a strong.bold {
+        font-weight: 900;
         position: relative;
         bottom: 55px;
         right: 15px;
         font-size: 20px;
 
     }
-    header .container .navbar .logo h1 a strong.norm{
+
+    header .container .navbar .logo h1 a strong.norm {
         position: relative;
         bottom: 35px;
         right: 117px;
         font-size: 17px;
 
     }
-    header .container .navbar .nav{
+
+    header .container .navbar .nav {
         float: right;
         width: 50%;
     }
-    header .container .navbar .nav ul{
+
+    header .container .navbar .nav ul {
         text-align: right;
         margin: 30px 40px 30px 0;
     }
-    header .container .navbar .nav ul li{
+
+    header .container .navbar .nav ul li {
         display: inline-block;
         position: relative;
 
     }
-    header .container .navbar .nav ul li a{
+
+    header .container .navbar .nav ul li a {
         display: block;
         padding: 15px;
         color: black;
@@ -97,11 +104,13 @@ a{
         margin: 0 7px;
         transition: all ease-in-out 0.5s;
     }
-    header .container .navbar .nav ul li a:hover{
+
+    header .container .navbar .nav ul li a:hover {
         background-color: var(--iconcolor);
         color: white;
     }
-    header .container .navbar .nav ul li .dropdown{
+
+    header .container .navbar .nav ul li .dropdown {
         display: none;
         position: absolute;
         top: 15px;
@@ -110,24 +119,28 @@ a{
         z-index: 1;
         /*background-color: white;*/
     }
-    header .container .navbar .nav ul li:hover .dropdown{
-          display: block;
-    }
-    header .container .navbar .nav ul li .dropdown li{  }
 
-    header .container .navbar .nav ul li .dropdown li a{
+    header .container .navbar .nav ul li:hover .dropdown {
+        display: block;
+    }
+
+    header .container .navbar .nav ul li .dropdown li {
+    }
+
+    header .container .navbar .nav ul li .dropdown li a {
         background-color: white;
         border-radius: 0;
         padding: 15px 50px;
     }
-    header .container .navbar .nav ul li .dropdown li a:hover{
+
+    header .container .navbar .nav ul li .dropdown li a:hover {
         background-color: var(--iconcolor);
         color: white;
         border-radius: 3px;
     }
 
     /*                  start of the jumbotron          */
-    header .container .jumbotron{
+    header .container .jumbotron {
         position: relative;
         float: left;
         background-image: url("../images/header.jpg");
@@ -135,31 +148,34 @@ a{
         height: 595px;
         background-size: cover;
     }
-    header .container .jumbotron .caption{
+
+    header .container .jumbotron .caption {
         width: 50%;
         height: 100%;
         text-align: center;
         margin: auto;
 
-
     }
-    header .container .jumbotron .caption h2{
+
+    header .container .jumbotron .caption h2 {
         text-align: center;
         color: white;
-        font-weight:900;
+        font-weight: 900;
         font-size: 50px;
         margin: 60px;
     }
-    header .container .jumbotron .caption p{
+
+    header .container .jumbotron .caption p {
         text-align: center;
         color: #E1DED9;
-        font-weight:100;
+        font-weight: 100;
         font-size: 20px;
         margin: 60px;
         line-height: 1.4;
 
     }
-    header .container .jumbotron .caption button{
+
+    header .container .jumbotron .caption button {
         border: none;
         padding: 12px 25px;
         background-color: var(--iconcolor);
@@ -169,137 +185,222 @@ a{
         border-radius: 3px;
 
     }
-    header .container .jumbotron .caption .icon-scroll-down{ }
-    header .container .jumbotron .caption .icon-scroll-down button{
+
+    header .container .jumbotron .caption .icon-scroll-down {
+    }
+
+    header .container .jumbotron .caption .icon-scroll-down button {
         background-color: white;
         color: black;
         width: 50px;
         height: 50px;
         padding: 5px;
-        border-radius:30px;
+        border-radius: 30px;
         font-size: 40px;
 
     }
-    header .container .jumbotron .caption .icon-scroll-down button i{}
 
+    header .container .jumbotron .caption .icon-scroll-down button i {
+    }
 
     /*                   end of the jumbotron       */
-
-
     /*          end of the header       */
+    /*           start of the  main            */
+    /*           start of the section one            */
+    main {
+    }
 
+    main .container {
+    }
 
-
-
-
-
-
-
-/*           start of the  main            */
-/*           start of the section one            */
-
-    main{}
-    main .container{}
-    main .container .one{
+    main .container .one {
         text-align: center;
     }
-    main .container .one .title-filter{}
-    main .container .one .title-filter .title{
+
+    main .container .one .title-filter {
+    }
+
+    main .container .one .title-filter .title {
         margin: 50px;
     }
-    main .container .one .title-filter .title h3{
+
+    main .container .one .title-filter .title h3 {
         font-weight: 900;
         font-size: 30px;
         font-family: "Yu Gothic Medium";
     }
-    main .container .one .title-filter .title p{
+
+    main .container .one .title-filter .title p {
         font-size: 18px;
         margin: 20px;
     }
-    main .container .one .title-filter .filter{}
-    main .container .one .title-filter .filter ul{}
-    main .container .one .title-filter .filter ul li{
+
+    main .container .one .title-filter .filter {
+    }
+
+    main .container .one .title-filter .filter ul {
+    }
+
+    main .container .one .title-filter .filter ul li {
         display: inline;
     }
-    main .container .one .title-filter .filter ul li a{
+
+    main .container .one .title-filter .filter ul li a {
         display: inline-block;
         padding: 10px 13px;
         background-color: var(--iconcolor);
         color: white;
-        margin:0 10px;
+        margin: 0 10px;
         border-radius: 2px;
     }
-/*           end of the section one            */
+    /*              start of the one        */
+    main .container .one .col{
+        width: 100%;
+        height: 240px;
+        margin: 60px 0;
 
+    }
+    main .container .one .col .overicon{
+        width: 240px;
+        height: 240px;
+        float: left;
+        border-radius: 128px;
+        transition: all ease-in-out 0.5s;
+        margin:0 30px 30px 30px;
+    }
+    main .container .one .col .overicon {
+        position: relative;
+        top: 0;
+        width: 240px;
+        height: 240px;
+        border-radius: 128px;
 
+    }
+    main .container .one .col .overicon  img{
+        width: 240px;
+        height: 240px;
+        border-radius: 128px;
 
+    }
+    main .container .one .col .overicon:hover  .overlay{
+        display: block;
 
-/*          end of the main             */
+    }
+    main .container .one .col .overicon  .overlay{
+        width: 240px;
+        height: 240px;
+        border-radius: 128px;
+        background-color: rgba(0,0,0,0.3);
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        color: white;
+        display: none;
+
+    }
+    main .container .one .col .overicon .overlay .searchicon{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: rgba(0,0,0,0.5);
+
+        margin: auto;
+        position: relative;
+        top: 20px;
+    }
+    main .container .one .col .overicon .overlay .searchicon i{
+        position: absolute;
+        top: 17px;
+        right: 0;
+        left: 0;
+    }
+    main .container .one .col .overicon .overlay p{
+        width: 100px;
+        margin: auto;
+        position: relative;
+        top: 50px;
+        font-size: 17px;
+
+    }
+
+    /*           end of the section one            */
+    /*          end of the main             */
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
 /*                  screen for the under the 770px          */
 
+@media only screen and (max-width: 770px) {
 
-@media only screen and (max-width: 770px){
-
-    .clearfix{
+    .clearfix {
         clear: both;
         float: none;
     }
-    .container{
-        width:700px ;
+
+    .container {
+        width: 700px;
         margin: auto;
     }
 
-    header{
+    header {
 
         position: fixed;
 
     }
-    header .container{
+
+    header .container {
 
     }
-    header .container .navbar{
-        width:15%;
+
+    header .container .navbar {
+        width: 15%;
         float: left;
         margin: auto;
         position: relative;
         background-color: #04eeee;
         height: 100%;
     }
-    header .container .navbar .logo{
+
+    header .container .navbar .logo {
         display: block;
         float: none;
     }
-    header .container .navbar .logo h1{
+
+    header .container .navbar .logo h1 {
         display: block;
 
     }
-    header .container .navbar .logo h1 a{}
-    header .container .navbar .logo h1 a img{
+
+    header .container .navbar .logo h1 a {
+    }
+
+    header .container .navbar .logo h1 a img {
         width: 60px;
         margin: 10px;
         margin-bottom: 100px;
     }
-    header .container .navbar .logo h1 a strong{
+
+    header .container .navbar .logo h1 a strong {
         position: absolute;
         top: 90px;
         bottom: 10px;
@@ -308,55 +409,64 @@ a{
         text-align: center;
         width: 10px;
     }
-    header .container .navbar .logo h1 a strong.bold{
+
+    header .container .navbar .logo h1 a strong.bold {
         font-weight: 900;
         position: absolute;
         top: 70px;
     }
-    header .container .navbar .nav{
+
+    header .container .navbar .nav {
         display: block;
         float: none;
         width: 100px;
     }
-    header .container .navbar .nav ul{
+
+    header .container .navbar .nav ul {
 
     }
-    header .container .navbar .nav ul li{
+
+    header .container .navbar .nav ul li {
         position: relative;
     }
-    header .container .navbar .nav ul li a{
+
+    header .container .navbar .nav ul li a {
         display: block;
         color: black;
         padding: 7px;
         transition: all ease-in-out 0.4s;
     }
-    header .container .navbar .nav ul li a:hover{
+
+    header .container .navbar .nav ul li a:hover {
         color: white;
         background-color: var(--iconcolor);
     }
-    header .container .navbar .nav ul li:hover .dropdown{
+
+    header .container .navbar .nav ul li:hover .dropdown {
         display: block;
     }
-    header .container .navbar .nav ul li .dropdown{
+
+    header .container .navbar .nav ul li .dropdown {
         display: none;
         position: absolute;
         left: 100px;
         top: 0;
         background-color: white;
     }
-    header .container .navbar .nav ul li .dropdown li{
 
+    header .container .navbar .nav ul li .dropdown li {
 
     }
-    header .container .navbar .nav ul li .dropdown li a{}
-    header .container .navbar .nav ul li .dropdown li a{}
+
+    header .container .navbar .nav ul li .dropdown li a {
+    }
+
+    header .container .navbar .nav ul li .dropdown li a {
+    }
+
     /*              end of the navbar   */
-
-
     /*                  start of the jumbotron          */
-
-
-    header .container .jumbotron{
+    header .container .jumbotron {
         float: right;
         width: 85%;
         background-image: url("../images/header.jpg");
@@ -364,43 +474,53 @@ a{
         height: 290px;
 
     }
-    header .container .jumbotron .caption{
+
+    header .container .jumbotron .caption {
         width: 65%;
         height: 100%;
         text-align: center;
         margin: auto;
     }
-    header .container .jumbotron .caption h2{
+
+    header .container .jumbotron .caption h2 {
         color: white;
-        font-size:20px ;
+        font-size: 20px;
         font-weight: 900;
         margin: 20px;
     }
-    header .container .jumbotron .caption p{
+
+    header .container .jumbotron .caption p {
         color: #E1DED9;
-        font-size:15px ;
+        font-size: 15px;
         font-weight: 100;
         margin: 20px;
 
     }
-    header .container .jumbotron .caption button{
+
+    header .container .jumbotron .caption button {
         border: none;
         background-color: var(--iconcolor);
         padding: 8px 10px;
         cursor: pointer;
     }
-    header .container .jumbotron .caption .icon-scroll-down{}
-    header .container .jumbotron .caption .icon-scroll-down button{
-        width:30px;
-        height:30px ;
-        border-radius:20px ;
+
+    header .container .jumbotron .caption .icon-scroll-down {
+    }
+
+    header .container .jumbotron .caption .icon-scroll-down button {
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
         color: black;
         background-color: white;
         font-size: 15px;
-       margin-top: 10px;
+        margin-top: 10px;
         cursor: pointer;
     }
-    header .container .jumbotron .caption .icon-scroll-down button i{}
+
+    header .container .jumbotron .caption .icon-scroll-down button i {
+    }
+
     /*                  end of the jumbotron          */
 
 }
