@@ -265,7 +265,6 @@ a {
         height: 240px;
         float: left;
         border-radius: 128px;
-        transition: all ease-in-out 0.5s;
         margin:0 30px 30px 30px;
     }
     main .container .one .col .overicon {
@@ -282,10 +281,10 @@ a {
         border-radius: 128px;
 
     }
-    main .container .one .col .overicon:hover  .overlay{
-        display: block;
+    /*main .container .one .col .overicon:hover  .overlay{*/
+        /*display: block;*/
 
-    }
+    /*}*/
     main .container .one .col .overicon  .overlay{
         width: 240px;
         height: 240px;
