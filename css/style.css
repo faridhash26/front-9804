@@ -374,7 +374,7 @@ a {
     main .container .two  a .image .overlayicons .blockicon .icons:hover{
 
         background-color: rgba(0,0,0,0.2);
-        
+
 
     }
     main .container .two  a .image .overlayicons .blockicon .icons{
@@ -418,6 +418,97 @@ a {
         box-sizing: border-box;
     }
     /*          end of the section two        */
+
+
+
+    /*          start of the section three      */
+
+    main .container .three{
+        width: 100%;
+        height: 565px;
+        background-color: var(--formcolor);
+    }
+    main .container .three .title{
+        text-align: center;
+    }
+    main .container .three .title h3{
+        padding: 20px;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    main .container .three .title p{
+        font-size: 18px;
+        margin: 20px;
+    }
+    main .container .three .form{}
+    main .container .three .form form{
+        float: left;
+        width: 50%;
+
+    }
+    main .container .three .form form input{
+
+        margin: 20px;
+        padding: 17px;
+        border: 1.5px solid var(--iconcolor);
+        color: var(--font-color);
+        font-size: 15px;
+
+    }
+    main .container .three .form form input[type=text]{
+        float: left;
+        width:200px ;
+
+    }
+    main .container .three .form form input[type=email]{
+        float: left;
+        width:200px ;
+
+
+    }
+    main .container .three .form form textarea{
+        display:inline;
+        float: left;
+        width: 86%;
+        margin: 20px;
+        border: 1.5px solid var(--iconcolor);
+        padding:20px;
+        box-sizing: border-box;
+        font-size: 15px;
+        height: 200px;
+    }
+    main .container .three .form form button{
+        border: none;
+        float: right;
+        margin: 10px 65px 0 0;
+        width: 100px;
+        height: 40px;
+        background-color: var(--iconcolor);
+        color: white;
+        cursor: pointer;
+    }
+    main .container .three .form .column2{
+        float: right;
+        width: 50%;
+    }
+    main .container .three .form .column2 h6{
+        margin: 20px 0;
+
+    }
+    main .container .three .form .column2 p{
+        margin: 20px 0;
+
+        text-align: left;
+    }
+    main .container .three .form .column2 p i{
+        margin: 10px 0;
+
+    }
+    main .container .three .form .column2 cite{
+        margin: 10px 0;
+
+    }
+    /*          end of the section three      */
 
     /*          end of the main             */
 }
