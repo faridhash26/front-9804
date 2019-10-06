@@ -6,5 +6,20 @@ $(document).ready(function () {
             $(this).children("div.overlay").fadeOut(400);
         });
     });
+    $(".imagelink").hover(function () {
+        console.log();
+        $(this).find(".overlayicons").slideDown(600);
+        $(this).mouseleave(function () {
+            $(this).find(".overlayicons").slideUp(600);
+        });
+    });
 });
-//          end of the overlay
+//*********** end of the overlay*************
+//***********about us   *************
+
+
+// $(document).ready(function () {
+//
+// });
+
+//***********/about us   *************

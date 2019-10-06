@@ -5,9 +5,10 @@
     --manucolor: #05FCFC;
     --font-family: 'Yu Gothic Medium';
     --main: #FFFFFF;
-    --aboutmain: #F1654C;
+    --aboutmain: #f1654c;
     --formcolor: #ECF0F1;
     --footercolor: #2D3E50;
+    --font-color:#E1DED9;
 }
 
 body {
@@ -207,14 +208,11 @@ a {
     /*          end of the header       */
     /*           start of the  main            */
     /*           start of the section one            */
-    main {
-    }
-
-    main .container {
-    }
-
+    main {}
+    main .container {  }
     main .container .one {
         text-align: center;
+
     }
 
     main .container .one .title-filter {
@@ -227,7 +225,6 @@ a {
     main .container .one .title-filter .title h3 {
         font-weight: 900;
         font-size: 30px;
-        font-family: "Yu Gothic Medium";
     }
 
     main .container .one .title-filter .title p {
@@ -256,7 +253,7 @@ a {
     /*              start of the one        */
     main .container .one .col{
         width: 100%;
-        height: 240px;
+        height: 500px;
         margin: 60px 0;
 
     }
@@ -281,10 +278,7 @@ a {
         border-radius: 128px;
 
     }
-    /*main .container .one .col .overicon:hover  .overlay{*/
-        /*display: block;*/
 
-    /*}*/
     main .container .one .col .overicon  .overlay{
         width: 240px;
         height: 240px;
@@ -325,6 +319,106 @@ a {
     }
 
     /*           end of the section one            */
+
+
+    /*          start of the section two        */
+    main .container .two{
+        background-color:var(--aboutmain);
+        display: block;
+
+    }
+    main .container .two .towtitle{
+        text-align: center;
+        color: white;
+
+    }
+    main .container .two .towtitle h3{
+        font-weight:900;
+        font-size:35px ;
+        padding: 40px;
+    }
+    main .container .two .towtitle p{
+        font-size: 15px;
+        font-weight: 300;
+        padding-bottom: 40px;
+    }
+    main .container .two  a{
+        display: inline-block;
+        margin: 10px 63px;
+        padding-bottom: 70px;
+
+    }
+    main .container .two  a .image{
+        position: relative;
+        line-height: 0;
+    }
+    main .container .two  a .image img{
+        width: 270px;
+        height: 310px;
+    }
+    main .container .two  a .image .overlayicons{
+        position: absolute;
+      top: 0;
+        left: 0;
+        width: 270px;
+        height: 310px;
+        background-color: rgba(0,0,0,0.5);
+        display: none;
+
+    }
+    main .container .two  a .image .overlayicons .blockicon{
+        background-color:rgba(4,181,181,0.5);
+        transform: translate(5%,250%);
+        width: 90%;
+    }
+    main .container .two  a .image .overlayicons .blockicon .icons:hover{
+
+        background-color: rgba(0,0,0,0.2);
+        
+
+    }
+    main .container .two  a .image .overlayicons .blockicon .icons{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        transform:translate(0,20%) ;
+        position: relative;
+        bottom: 10px;
+        left: 15px;
+
+    }
+    main .container .two  a .image .overlayicons .blockicon .icons i{
+        color: white;
+        position: relative;
+        top: 5px;
+        font-size: 30px;
+    }
+    main .container .two .title-description{
+        width: 100%;
+        height: 250px;
+        background-color: white;
+        color: #73706b;
+        text-align: center;
+
+
+    }
+    main .container .two .title-description h4{
+        font-weight: bold;
+        font-size: 19px;
+        padding: 15px;
+    }
+    main .container .two .title-description h5{
+        font-size:17px ;
+    }
+    main .container .two .title-description p{
+        width: 250px;
+        text-align: left;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    /*          end of the section two        */
+
     /*          end of the main             */
 }
 
@@ -363,7 +457,7 @@ a {
 
     header {
 
-        position: fixed;
+
 
     }
 
@@ -521,5 +615,119 @@ a {
     }
 
     /*                  end of the jumbotron          */
+    /*          end of the header       */
+    /*           start of the  main            */
+    /*           start of the section one            */
+    main {}
+    main .container {  }
+    main .container .one {
+        text-align: center;
+    }
 
+    main .container .one .title-filter {
+    }
+
+    main .container .one .title-filter .title {
+        margin: 50px;
+    }
+
+    main .container .one .title-filter .title h3 {
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+    main .container .one .title-filter .title p {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    main .container .one .title-filter .filter {
+    }
+
+    main .container .one .title-filter .filter ul {
+    }
+
+    main .container .one .title-filter .filter ul li {
+        display: inline;
+    }
+
+    main .container .one .title-filter .filter ul li a {
+        display: inline-block;
+        padding: 10px 13px;
+        background-color: var(--iconcolor);
+        color: white;
+        margin: 0 10px;
+        border-radius: 2px;
+    }
+    main .container .one .col{
+        width: 100%;
+        height: 240px;
+        margin: 60px 0;
+
+    }
+    main .container .one .col .overicon{
+        width: 120px;
+        height:120px;
+        float: left;
+        border-radius: 128px;
+        margin:0 20px 30px 30px;
+    }
+    main .container .one .col .overicon {
+        position: relative;
+        top: 0;
+        width: 120px;
+        height: 120px;
+        border-radius: 128px;
+
+    }
+    main .container .one .col .overicon  img{
+        width: 120px;
+        height: 120px;
+        border-radius: 128px;
+
+    }
+
+    main .container .one .col .overicon  .overlay{
+        width: 120px;
+        height: 120px;
+        border-radius: 128px;
+        background-color: rgba(0,0,0,0.3);
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        color: white;
+        display: none;
+
+    }
+    main .container .one .col .overicon .overlay .searchicon{
+        width: 25px;
+        height: 25px;
+        border-radius: 100px;
+        background-color: rgba(0,0,0,0.5);
+
+        margin: auto;
+        position: relative;
+        top: 13px;
+    }
+    main .container .one .col .overicon .overlay .searchicon i{
+        position: absolute;
+        font-size: 13px;
+        top: 7px;
+        right: 0;
+        left: 0;
+    }
+    main .container .one .col .overicon .overlay p{
+        width: 100px;
+        margin: auto;
+        position: relative;
+        top: 25px;
+        font-size: 13px;
+
+    }
+
+    /*           end of the section one            */
+    /*          end of the main             */
+}
 }
