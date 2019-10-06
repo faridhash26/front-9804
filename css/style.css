@@ -486,6 +486,7 @@ a {
         background-color: var(--iconcolor);
         color: white;
         cursor: pointer;
+        border-radius: 2px;
     }
     main .container .three .form .column2{
         float: right;
@@ -511,6 +512,43 @@ a {
     /*          end of the section three      */
 
     /*          end of the main             */
+
+
+    /*          start footer            */
+
+    footer{
+
+
+    }
+    footer .container{
+        background-color: var(--footercolor);
+        height: 70px;
+    }
+    footer .container button{
+        float: right;
+        width: 35px;
+        height: 35px;
+        margin: 20px 30px;
+        border: none;
+        background-color: var(--iconcolor);
+        cursor: pointer;
+        border-radius: 2px;
+
+    }
+    footer .container button i{
+        color: white;
+    }
+    footer .container strong{
+        color: white;
+        padding: 30px 50px;
+        display: block;
+        font-size: 14px;
+        width: 50%;
+    }
+
+
+
+    /*          /start footer            */
 }
 
 
