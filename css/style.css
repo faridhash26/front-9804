@@ -2,6 +2,7 @@
 
 :root {
     --iconcolor: #04B5B5;
+    --iconcolor2: #04e5e5;
     --manucolor: #05FCFC;
     --font-family: 'Yu Gothic Medium';
     --main: #FFFFFF;
@@ -179,26 +180,34 @@ a {
     header .container .jumbotron .caption button {
         border: none;
         padding: 12px 25px;
-        background-color: var(--iconcolor);
+        background-color: var(--iconcolor2);
         color: white;
         margin: 20px;
         cursor: pointer;
         border-radius: 3px;
-
+        transition: all ease-in-out 0.5s;
+    }
+    header .container .jumbotron .caption button:hover {
+        background-color: var(--iconcolor);
     }
 
     header .container .jumbotron .caption .icon-scroll-down {
     }
 
     header .container .jumbotron .caption .icon-scroll-down button {
-        background-color: white;
+        background-color:var(--iconcolor2);
         color: black;
         width: 50px;
         height: 50px;
         padding: 5px;
         border-radius: 30px;
         font-size: 40px;
+        transition: all ease-in-out 0.5s;
+    }
 
+
+    header .container .jumbotron .caption .icon-scroll-down button:hover{
+        background-color:var(--iconcolor);
     }
 
     header .container .jumbotron .caption .icon-scroll-down button i {
@@ -425,11 +434,12 @@ a {
 
     main .container .three{
         width: 100%;
-        height: 565px;
+        height: 700px;
         background-color: var(--formcolor);
     }
     main .container .three .title{
         text-align: center;
+        padding: 50px;
     }
     main .container .three .title h3{
         padding: 20px;
@@ -483,11 +493,16 @@ a {
         margin: 10px 65px 0 0;
         width: 100px;
         height: 40px;
-        background-color: var(--iconcolor);
+        background-color: var(--iconcolor2);
         color: white;
         cursor: pointer;
         border-radius: 2px;
+        transition: all ease-in-out 0.5s;
     }
+    main .container .three .form form button:hover {
+        background-color: var(--iconcolor);
+    }
+
     main .container .three .form .column2{
         float: right;
         width: 50%;
@@ -530,13 +545,17 @@ a {
         height: 35px;
         margin: 20px 30px;
         border: none;
-        background-color: var(--iconcolor);
+        background-color: var(--iconcolor2);
         cursor: pointer;
         border-radius: 2px;
-
+        color: white;
+        transition: all ease-in-out 0.5s;
+    }
+    footer .container button:hover {
+        background-color: var(--iconcolor);
     }
     footer .container button i{
-        color: white;
+        font-size: 20px;
     }
     footer .container strong{
         color: white;

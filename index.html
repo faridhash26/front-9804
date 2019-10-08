@@ -14,7 +14,7 @@
 
 <header>
     <div class="container">
-        <div class="navbar">
+        <div class="navbar" id="navbar">
             <section class="logo">
                 <h1>
                     <a href="">
@@ -27,10 +27,10 @@
             <section class="nav">
                 <ul>
                     <li>
-                        <a href="">HOME</a>
+                        <a href="#home">HOME</a>
                     </li>
                     <li>
-                        <a href="">PROTFOLIO</a>
+                        <a href="#portfolio">PROTFOLIO</a>
                         <ul class="dropdown">
                             <li>
                                 <a href="">test1</a>
@@ -47,10 +47,10 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="">ABOUT</a>
+                        <a href="#about">ABOUT</a>
                     </li>
                     <li>
-                        <a href="">CONTACT</a>
+                        <a href="#contact">CONTACT</a>
                     </li>
                 </ul>
             </section>
@@ -69,9 +69,14 @@
                     LEARN MORE
                 </button>
                 <div class="icon-scroll-down">
-                    <button>
-                        <i class="fa fa-angle-down"></i>
-                    </button>
+
+                    <a href="#footer">
+                        <button>
+                            <i class="fa fa-angle-down"></i>
+                        </button>
+                    </a>
+
+
                 </div>
             </div>
         </div>
@@ -85,7 +90,7 @@
         <section class="one">
             <div class="title-filter">
                 <div class="title">
-                    <h3>Portfolio</h3>
+                    <h3 id="portfolio">Portfolio</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur.</p>
                 </div>
                 <div class="filter">
@@ -189,7 +194,7 @@
         </section>
         <section class="two">
             <div class="towtitle">
-                <h3>About Us</h3>
+                <h3 id="about">About Us</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, soluta!</p>
             </div>
             <a href="" class="imagelink">
@@ -273,7 +278,7 @@
         </section>
         <section class="three">
             <div class="title">
-                <h3>Contact Us</h3>
+                <h3 >Contact Us</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur.</p>
             </div>
             <div class="form">
@@ -285,7 +290,7 @@
                         SUBMIT
                     </button>
                 </form>
-                <div class="column2">
+                <div class="column2" >
                     <h6>INFORMATION</h6>
                     <p>Branded Company</p>
                     <p>12345 Hollywood Bvld Street</p>
@@ -298,7 +303,7 @@
                        <i class="fa fa-fax"></i>
                         +123(FAX)0011223
                     </p>
-                    <cite>
+                    <cite >
                         <i class="fa fa-envelope"></i>
                         info@bak-onecompany.com
                     </cite>
@@ -309,11 +314,19 @@
     <div class="clearfix"></div>
 </main>
 
-<footer>
+<footer id="footer">
     <div class="container">
-        <button>
-            <i class="fa fa-angle-up"></i>
-        </button>
+
+            <a href="#navbar" id="contact">
+                <button >
+
+                <i class="fa fa-angle-up"></i></button>
+            </a>
+
+
+
+
+
         <strong>
             &copy;
             Copyright 2013 Branded | One Page Flat Template
