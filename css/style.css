@@ -224,28 +224,21 @@ a {
 
     }
 
-    main .container .one .title-filter {
-    }
-
+    main .container .one .title-filter { }
     main .container .one .title-filter .title {
         margin: 50px;
     }
-
     main .container .one .title-filter .title h3 {
         font-weight: 900;
         font-size: 30px;
     }
-
     main .container .one .title-filter .title p {
         font-size: 18px;
         margin: 20px;
     }
 
-    main .container .one .title-filter .filter {
-    }
-
-    main .container .one .title-filter .filter ul {
-    }
+    main .container .one .title-filter .filter { }
+    main .container .one .title-filter .filter ul { }
 
     main .container .one .title-filter .filter ul li {
         display: inline;
@@ -264,7 +257,6 @@ a {
         width: 100%;
         height: 500px;
         margin: 60px 0;
-
     }
     main .container .one .col .overicon{
         width: 240px;
@@ -279,13 +271,11 @@ a {
         width: 240px;
         height: 240px;
         border-radius: 128px;
-
     }
     main .container .one .col .overicon  img{
         width: 240px;
         height: 240px;
         border-radius: 128px;
-
     }
 
     main .container .one .col .overicon  .overlay{
@@ -307,7 +297,6 @@ a {
         height: 50px;
         border-radius: 100px;
         background-color: rgba(0,0,0,0.5);
-
         margin: auto;
         position: relative;
         top: 20px;
@@ -324,7 +313,6 @@ a {
         position: relative;
         top: 50px;
         font-size: 17px;
-
     }
 
     /*           end of the section one            */
@@ -334,12 +322,10 @@ a {
     main .container .two{
         background-color:var(--aboutmain);
         display: block;
-
     }
     main .container .two .towtitle{
         text-align: center;
         color: white;
-
     }
     main .container .two .towtitle h3{
         font-weight:900;
@@ -355,7 +341,6 @@ a {
         display: inline-block;
         margin: 10px 63px;
         padding-bottom: 70px;
-
     }
     main .container .two  a .image{
         position: relative;
@@ -373,7 +358,6 @@ a {
         height: 310px;
         background-color: rgba(0,0,0,0.5);
         display: none;
-
     }
     main .container .two  a .image .overlayicons .blockicon{
         background-color:rgba(4,181,181,0.5);
@@ -381,10 +365,7 @@ a {
         width: 90%;
     }
     main .container .two  a .image .overlayicons .blockicon .icons:hover{
-
         background-color: rgba(0,0,0,0.2);
-
-
     }
     main .container .two  a .image .overlayicons .blockicon .icons{
         display: inline-block;
@@ -395,7 +376,6 @@ a {
         position: relative;
         bottom: 10px;
         left: 15px;
-
     }
     main .container .two  a .image .overlayicons .blockicon .icons i{
         color: white;
@@ -409,8 +389,6 @@ a {
         background-color: white;
         color: #73706b;
         text-align: center;
-
-
     }
     main .container .two .title-description h4{
         font-weight: bold;
@@ -454,27 +432,21 @@ a {
     main .container .three .form form{
         float: left;
         width: 50%;
-
     }
     main .container .three .form form input{
-
         margin: 20px;
         padding: 17px;
         border: 1.5px solid var(--iconcolor);
         color: var(--font-color);
         font-size: 15px;
-
     }
     main .container .three .form form input[type=text]{
         float: left;
         width:200px ;
-
     }
     main .container .three .form form input[type=email]{
         float: left;
         width:200px ;
-
-
     }
     main .container .three .form form textarea{
         display:inline;
@@ -502,27 +474,22 @@ a {
     main .container .three .form form button:hover {
         background-color: var(--iconcolor);
     }
-
     main .container .three .form .column2{
         float: right;
         width: 50%;
     }
     main .container .three .form .column2 h6{
         margin: 20px 0;
-
     }
     main .container .three .form .column2 p{
         margin: 20px 0;
-
         text-align: left;
     }
     main .container .three .form .column2 p i{
         margin: 10px 0;
-
     }
     main .container .three .form .column2 cite{
         margin: 10px 0;
-
     }
     /*          end of the section three      */
 
@@ -531,10 +498,7 @@ a {
 
     /*          start footer            */
 
-    footer{
-
-
-    }
+    footer{}
     footer .container{
         background-color: var(--footercolor);
         height: 70px;
@@ -567,7 +531,7 @@ a {
 
 
 
-    /*          /start footer            */
+    /*          /end footer            */
 }
 
 
@@ -629,12 +593,9 @@ a {
 
     header .container .navbar .logo h1 {
         display: block;
-
     }
 
-    header .container .navbar .logo h1 a {
-    }
-
+    header .container .navbar .logo h1 a {  }
     header .container .navbar .logo h1 a img {
         width: 60px;
         margin: 10px;
@@ -664,7 +625,6 @@ a {
     }
 
     header .container .navbar .nav ul {
-
     }
 
     header .container .navbar .nav ul li {
@@ -695,15 +655,11 @@ a {
         background-color: white;
     }
 
-    header .container .navbar .nav ul li .dropdown li {
+    header .container .navbar .nav ul li .dropdown li {  }
 
-    }
+    header .container .navbar .nav ul li .dropdown li a {  }
 
-    header .container .navbar .nav ul li .dropdown li a {
-    }
-
-    header .container .navbar .nav ul li .dropdown li a {
-    }
+    header .container .navbar .nav ul li .dropdown li a {  }
 
     /*              end of the navbar   */
     /*                  start of the jumbotron          */
@@ -713,7 +669,6 @@ a {
         background-image: url("../images/header.jpg");
         background-size: cover;
         height: 290px;
-
     }
 
     header .container .jumbotron .caption {
@@ -735,7 +690,6 @@ a {
         font-size: 15px;
         font-weight: 100;
         margin: 20px;
-
     }
 
     header .container .jumbotron .caption button {
@@ -745,8 +699,7 @@ a {
         cursor: pointer;
     }
 
-    header .container .jumbotron .caption .icon-scroll-down {
-    }
+    header .container .jumbotron .caption .icon-scroll-down {  }
 
     header .container .jumbotron .caption .icon-scroll-down button {
         width: 30px;
@@ -759,8 +712,7 @@ a {
         cursor: pointer;
     }
 
-    header .container .jumbotron .caption .icon-scroll-down button i {
-    }
+    header .container .jumbotron .caption .icon-scroll-down button i {  }
 
     /*                  end of the jumbotron          */
     /*          end of the header       */
@@ -772,8 +724,7 @@ a {
         text-align: center;
     }
 
-    main .container .one .title-filter {
-    }
+    main .container .one .title-filter {  }
 
     main .container .one .title-filter .title {
         margin: 50px;
@@ -781,19 +732,17 @@ a {
 
     main .container .one .title-filter .title h3 {
         font-weight: 900;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     main .container .one .title-filter .title p {
-        font-size: 18px;
+        font-size: 14px;
         margin: 20px;
     }
 
-    main .container .one .title-filter .filter {
-    }
+    main .container .one .title-filter .filter {  }
 
-    main .container .one .title-filter .filter ul {
-    }
+    main .container .one .title-filter .filter ul {  }
 
     main .container .one .title-filter .filter ul li {
         display: inline;
@@ -806,12 +755,12 @@ a {
         color: white;
         margin: 0 10px;
         border-radius: 2px;
+        font-size: 14px;
     }
     main .container .one .col{
         width: 100%;
         height: 240px;
         margin: 60px 0;
-
     }
     main .container .one .col .overicon{
         width: 120px;
@@ -832,7 +781,6 @@ a {
         width: 120px;
         height: 120px;
         border-radius: 128px;
-
     }
 
     main .container .one .col .overicon  .overlay{
@@ -854,7 +802,6 @@ a {
         height: 25px;
         border-radius: 100px;
         background-color: rgba(0,0,0,0.5);
-
         margin: auto;
         position: relative;
         top: 13px;
@@ -876,6 +823,225 @@ a {
     }
 
     /*           end of the section one            */
+
+    /*          start of the section two        */
+    main .container .two{
+        background-color:var(--aboutmain);
+        display: block;
+    }
+    main .container .two .towtitle{
+        text-align: center;
+        color: white;
+    }
+    main .container .two .towtitle h3{
+        font-weight:900;
+        font-size:25px ;
+        padding: 20px;
+    }
+    main .container .two .towtitle p{
+        font-size: 15px;
+        font-weight: 300;
+        padding-bottom: 40px;
+    }
+    main .container .two  a{
+        display: inline-block;
+        margin: 10px 30px;
+        padding-bottom: 70px;
+    }
+    main .container .two  a .image{
+        position: relative;
+        line-height: 0;
+    }
+    main .container .two  a .image img{
+        width: 170px;
+        height: 210px;
+    }
+    main .container .two  a .image .overlayicons{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 170px;
+        height: 210px;
+        background-color: rgba(0,0,0,0.5);
+        display: none;
+    }
+    main .container .two  a .image .overlayicons .blockicon{
+        background-color:rgba(4,181,181,0.5);
+        transform: translate(5%,286%);
+        width: 90%;
+    }
+    main .container .two  a .image .overlayicons .blockicon .icons:hover{
+        background-color: rgba(0,0,0,0.2);
+    }
+    main .container .two  a .image .overlayicons .blockicon .icons{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        transform:translate(0,35%) ;
+        position: relative;
+        bottom: 10px;
+        left: 15px;
+    }
+    main .container .two  a .image .overlayicons .blockicon .icons i{
+        color: white;
+        position: relative;
+        top: 5px;
+        font-size: 20px;
+    }
+    main .container .two .title-description{
+        width: 100%;
+        height: 250px;
+        background-color: white;
+        color: #73706b;
+        text-align: center;
+    }
+    main .container .two .title-description h4{
+        font-weight: bold;
+        font-size: 15px;
+        padding: 15px;
+    }
+    main .container .two .title-description h5{
+        font-size:14px ;
+    }
+    main .container .two .title-description p{
+        width: 150px;
+        text-align: left;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+    /*          end of the section two        */
+
+
+
+    /*          start of the section three      */
+
+    main .container .three{
+        width: 100%;
+        height: 700px;
+        background-color: var(--formcolor);
+    }
+    main .container .three .title{
+        text-align: center;
+        padding: 50px;
+    }
+    main .container .three .title h3{
+        font-weight: 900;
+        font-size: 25px;
+    }
+    main .container .three .title p{
+        font-size: 15px;
+        margin: 20px;
+    }
+    main .container .three .form{}
+    main .container .three .form form{
+        float: left;
+        width: 50%;
+    }
+    main .container .three .form form input{
+        margin: 20px;
+        padding: 17px;
+        border: 1.5px solid var(--iconcolor);
+        color: var(--font-color);
+        font-size: 15px;
+    }
+    main .container .three .form form input[type=text]{
+        float: left;
+        width:265px ;
+    }
+    main .container .three .form form input[type=email]{
+        float: left;
+        width:265px ;
+    }
+    main .container .three .form form textarea{
+        display:inline;
+        float: left;
+        width: 86%;
+        margin: 20px;
+        border: 1.5px solid var(--iconcolor);
+        padding:20px;
+        box-sizing: border-box;
+        font-size: 15px;
+        height: 200px;
+    }
+    main .container .three .form form button{
+        border: none;
+        float: right;
+        margin: 0 30px 0 0;
+        width: 100px;
+        height: 40px;
+        background-color: var(--iconcolor2);
+        color: white;
+        cursor: pointer;
+        border-radius: 2px;
+        transition: all ease-in-out 0.5s;
+    }
+    main .container .three .form form button:hover {
+        background-color: var(--iconcolor);
+    }
+    main .container .three .form .column2{
+        float: right;
+        width: 50%;
+    }
+    main .container .three .form .column2 h6{
+        margin: 20px 0;
+        font-size: 15px;
+    }
+    main .container .three .form .column2 p{
+        margin: 20px 0;
+        text-align: left;
+        font-size: 15px;
+    }
+    main .container .three .form .column2 p i{
+        margin: 10px 0;
+        font-size: 15px;
+    }
+    main .container .three .form .column2 cite{
+        margin: 10px 0;
+        font-size: 15px;
+    }
+    /*          end of the section three      */
+
+    /*          end of the main             */
+
+
+    /*          start footer            */
+
+    footer{}
+    footer .container{
+        background-color: var(--footercolor);
+        height: 70px;
+    }
+    footer .container button{
+        float: right;
+        width: 35px;
+        height: 35px;
+        margin: 20px 30px;
+        border: none;
+        background-color: var(--iconcolor2);
+        cursor: pointer;
+        border-radius: 2px;
+        color: white;
+        transition: all ease-in-out 0.5s;
+    }
+    footer .container button:hover {
+        background-color: var(--iconcolor);
+    }
+    footer .container button i{
+        font-size: 20px;
+    }
+    footer .container strong{
+        color: white;
+        padding: 30px 50px;
+        display: block;
+        font-size: 12px;
+        width: 50%;
+    }
+
+
+
+    /*          /start footer            */
     /*          end of the main             */
 }
 }
